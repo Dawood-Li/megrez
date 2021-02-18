@@ -1,17 +1,17 @@
 # megrez
-一个学习用的实验开发项目
-### Class Audio
+一个学习用的实验开发项目  
+### Audio Class  
 ```c++
-/* 引用 */
- #include"Audio.h"
+    /* 引用 */
+    #include"Audio_Class.h"
  
-/* 构造 */
-Audio bgm("1.mp3");
+    /* 构造 */
+    Audio bgm("1.mp3");
 
-/* 成员 */
-loop()  /* 循环 */
-once()  /* 一次 */
-pause() /* 暂停 */
-resume()/* 恢复 */
-end()   /* 终止 */
+    /* 成员 */
+    bgm.loop()  /* 循环 */
+    bgm.once()  /* 一次 */
+    bgm.pause() /* 暂停 */
+    bgm.resume()/* 恢复 */
+    bgm.end()   /* 终止 */
 ```  
